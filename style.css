@@ -1,0 +1,137 @@
+body{
+    justify-content: center;
+    margin-left:10rem;
+    font-family: sans-serif;
+    margin-top:5rem;
+}
+.top{
+    display:flex;
+    gap:30rem;
+}
+.top ul{
+    display:flex;
+    gap:5rem;
+}
+.top ul a{
+    text-decoration: none;
+    color:#adadad;
+    font-size:1.5vw;
+    cursor:pointer;
+}
+.top ul a:hover{
+    color:#51aff7;
+}
+.top h1{
+    font-size: 2rem;
+    color:#51aff7;
+}
+.bottom{
+    display:flex;
+}
+.content{
+    margin-top:8rem;
+    font-family:"poppins",sans-serif;
+    font-size:1.7vw;
+    max-width: 100%;
+    height: auto;
+}
+.content span{
+    color:#51aff7;
+}
+.content .allpages{
+    background: #51aff7;
+    color:#fff;
+    padding:1rem;
+    border-radius: 1rem;
+    width:10rem;
+    font-size: 1.1rem;
+    border-color: transparent;
+    cursor: pointer;
+}
+.content .allpages:hover{
+    background:#528aae;
+    transition:0.5s ease;
+    transform: scale(1.05);
+}
+.content .documentation{
+    background: #DFF2FF;
+    color:#528aae;
+    padding:1rem;
+    border-radius: 1rem;
+    width:10rem;
+    font-size: 1.1rem;
+    border-color: transparent;
+    cursor: pointer;
+    margin-left:2rem;
+}
+.content .documentation:hover{
+    background:#88b2de;
+    color:#DFF2FF;
+    transition:0.5s ease;
+    transform: scale(1.05);
+}
+.img img{
+    height:auto;
+    width:100%;
+    width:40rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 768px){
+    .top{
+        gap:6rem;
+    }
+    .top ul a{
+        font-size:1rem;
+        margin-right: 1rem;
+    }
+    .top ul{
+        display:grid;
+        gap:.5rem;
+        text-align: right;
+
+    }
+    body{
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        margin-top:1rem;
+    }
+    .img img{
+        height:auto;
+        width:17rem;
+        margin-left:2rem;
+        display:grid;
+    }
+    .content{
+        margin-left:.4rem;
+        margin-top:2rem;
+    }
+    .content h1{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .content p{
+        font-size:.9rem;
+    }
+    .content .allpages{
+    padding:1rem;
+    border-radius: 1rem;
+    width:9rem;
+    font-size: .9rem;
+    }
+    .content .documentation{
+    padding:1rem;
+    border-radius: 1rem;
+    width:8.5rem;
+    font-size: .9rem;
+    margin-top:.8rem;
+    margin-left:.4rem;
+    }
+    .bottom{
+        display:grid;
+    }
+    
+    
+}
+
